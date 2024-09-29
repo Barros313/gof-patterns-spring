@@ -52,8 +52,6 @@ public class ClientServiceImplementation implements ClientService {
             return;
         }
 
-        client.setId(client.getId());
-
         // Verificar endereço
         handleAddress(client);
     }
