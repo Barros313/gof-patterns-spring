@@ -1,7 +1,9 @@
 package com.barros.gofpatterns.model;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
+@Entity
 public class Address {
     @Id
     private String cep;
